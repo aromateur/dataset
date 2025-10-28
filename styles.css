@@ -1,0 +1,46 @@
+:root {
+    background-color: floralwhite;
+    font-family: 'Franklin Gothic Medium'
+    color: navy;
+}
+h1 {
+    font-family: 'Audiowide';
+    font-size: 25px;
+    color: navy;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium';
+    color: navy;
+    font-size: 16px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: static;
+    padding: 10px 10px 10px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-row-end: 20px;
+    justify-content: space-evenly;
+    color: gold;
+}
+
+.linked-image {
+    width: 250px;
+    height: 200px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+.linked-image:hover {
+    opacity: 0.6;
+    display: "title"
+}
+
+#dataform {
+    color: navy;
+    font-family: 'Audiowide';
+    margin-left: 10px;
+}
